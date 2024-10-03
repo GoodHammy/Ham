@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The World Ham Foundation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #ffcc00;
+            color: #333;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        .hero {
+            background-color: #ffe680;
+            padding: 50px;
+            text-align: center;
+        }
+        .hero h1 {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>The World Ham Foundation</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Welcome to The World Ham Foundation</h1>
+        <p>Dedicated to proving that Hammy, the corgi, is a very good ham!</p>
+    </section>
+
+    <section id="research" class="container">
+        <h2>Research</h2>
+        <p>Our extensive research proves that Hammy is a certified good ham. Check out our latest publications below:</p>
+        <ul>
+            <li><a href="#">Why Hammy Loves Ham: A Scientific Exploration</a></li>
+            <li><a href="#">The Corgi Phenomenon: Why Hammy is the Best Ham</a></li>
+        </ul>
+    </section>
+
+    <section id="gallery" class="container">
+        <h2>Gallery</h2>
+        <p>See Hammy in action:</p>
+        <img src="hammy1.jpg" alt="Hammy being cute" width="300">
+        <img src="hammy2.jpg" alt="Hammy in the park" width="300">
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>Get in touch to learn more about Hammy and how to support the foundation.</p>
+        <p>Email: <a href="mailto:hammy@worldhamfoundation.org">hammy@worldhamfoundation.org</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 The World Ham Foundation. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
